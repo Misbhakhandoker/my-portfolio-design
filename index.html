@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- font-['gilory'] -->
+    <div class="main w-full h-screen ">
+      <div class="container mx-auto">
+        <div class="navbar flex justify-between items-center py-3 px-4">
+          <h3 class="logo text-base font-bold">MK</h3>
+          <div class="menu sm:hidden md:hidden lg:hidden">
+            <i class="ri-menu-fill"></i>
+          </div>
+          <div class="links hidden sm:flex md:flex lg:flex gap-10 text-sm">
+            <a class="font-semibold" href="#">Works</a>
+            <a href="#">Service</a>
+            <a href="#">Content</a>
+            <a href="#">Pricing</a>
+          </div>
+        </div>
+        <div class="content flex flex-col justify-center items-center absolute top-1/2 left-1/2 w-full -translate-x-[50%] -translate-y-[50%]">
+          <div
+            class="image w-10 h-10 rounded-full overflow-hidden bg-indigo-700"
+          >
+            <img
+              class="w-full h-full object-cover object-top"
+              src="./my.jpg"
+              alt=""
+            />
+          </div>
+          <h3 class="say mt-3 text-xs font-bold">Hi,I'm DR.Mijbah👋</h3>
+          <h1 class="title w-3/4 text-center font-bold text-2xl lg:text-4xl leading-none mt-3">Building digital products, brands, and experience.</h1>
+          <p class="desc text-xs font-semibold text-center w-3/4 lg:w-1/3 mt-3">a Product Designer and Visual Developer in SF. I specialize in UI/UX Design. Responsive Web Design, and Visual Development.</p>
+          <button class="bg-black	text-white text-xs mt-10 py-3 px-3 rounded-full">Contact With Me</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
